@@ -5,14 +5,30 @@
 header div{
 	max-width: 913.5px;
 	margin: 0 auto;
-	padding: 37px 0 23.8px 0;
+	/* padding: 48px 0 23.8px 0; */
 }
 #logo{
 	float: left;
 	width: 287.3px;
 }
 nav {
-	/* float: right; */
+	margin-top: 59px 0 67.3px 0;
+}
+nav a {
+	border-left:1px dotted #d5d5d5;
+	height: 10.3px;
+}
+.hlinks {
+	text-decoration: none;
+}
+a:link.hlinks {
+	color: #666666;
+}
+a:visited.hlinks {
+	color: #666666;
+}
+a:hover.hlinks {
+	color: #666666;
 }
 #top-background {
 	background-size: inherit;
@@ -21,7 +37,7 @@ nav {
 	height: 335px;
 }
 #back {
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 15px;
 	width: 940px;
 	height: 342px;
 }
@@ -46,16 +62,16 @@ footer {
 	max-width: 940px;
 	margin: 0 auto;
 }
-.blinks {
+.flinks {
 	padding: 0 9px;
 	text-decoration: none;
 }
-a:link.blinks {
+a:link.flinks {
 	color: #999999;
 }
-a:visited.blinks {
+a:visited.flinks {
 	color: #999999;
 }
-a:hover.blinks {
+a:hover.flinks {
 	color: #999999;
 }
