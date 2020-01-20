@@ -14,12 +14,12 @@ header div{
 .menu{
 	float: right;
 }
-/* #top-background {
+#top-background {
 	background-size: cover;
 	background-image: url(/Learning/img/background.png);
 	height: 335px;
-	width: auto;
-} */
+	/* width: auto; */
+}
 #back {
 	border-radius: 15px 15px 15px 15px;
 	height: 342px;
