@@ -43,6 +43,15 @@ footer {
 	background-size: inherit;
 	background-color: #333333;
 	height: 156px;
+	max-width: 940px;
+	margin: 0 auto;
+}
+.blinks {
+	padding: 0 9px;
+	text-decoration: none;
+}
+a:link.blinks {
+	color: #999999;
 }
 a:visited.blinks {
 	color: #999999;
