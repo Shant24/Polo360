@@ -71,12 +71,18 @@ footer {
 	margin: 0 auto;
 	margin-top: -156px;
 }
+footer div p {
+	padding: 11px 0;
+}
 .flinks {
 	padding: 0 9px;
 	text-decoration: none;
 	/* max-width: 940px;
 	margin: 0 auto; */
 	/* float: left; */
+}
+#term {
+	margin: -10px 0;
 }
 a:link.flinks {
 	color: #999999;
@@ -90,7 +96,7 @@ a:hover.flinks {
 div#copy {
 	max-width: 940px;
 	margin: 0 auto;
-	margin-top: -48px;
+	margin-top: -91px;
 }
 div#copy p {
 	float: right;
