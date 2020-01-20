@@ -5,18 +5,19 @@
 header div{
 	max-width: 913.5px;
 	margin: 0 auto;
-	/* padding: 48px 0 23.8px 0; */
+	padding: 68.5px 0;
 }
 #logo{
 	float: left;
 	width: 287.3px;
 }
 nav {
-	margin-top: 59px 0 67.3px 0;
+	float: right;
+	/* height: 10.3px; */
 }
 nav a {
 	border-left:1px dotted #d5d5d5;
-	height: 10.3px;
+	
 }
 .hlinks {
 	text-decoration: none;
