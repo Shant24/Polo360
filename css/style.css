@@ -18,9 +18,7 @@ header div{
 	background-size: inherit;
 	background-image: url(/Learning/img/background.png);
 	margin-bottom: -312.7px;
-	/* max-width: 4000px; */
 	height: 335px;
-	/* width: auto; */
 }
 #back {
 	border-radius: 15px 15px 15px 15px;
@@ -34,7 +32,7 @@ h1 {
 	font-size: 2em;
 }
 footer {
-	color: white;
+	color: #999999;
 }
 #bottom1 {
 	background-size: inherit;
@@ -45,5 +43,10 @@ footer {
 	background-size: inherit;
 	background-color: #333333;
 	height: 156px;
-	/* padding-bottom: -170px; */
+}
+a:visited.blinks {
+	color: #999999;
+}
+a:hover.blinks {
+	color: #999999;
 }
