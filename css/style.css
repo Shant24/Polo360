@@ -16,7 +16,7 @@ header div{
 }
 #top-background {
 	background-size: cover;
-	background-image: url(/img/background.png);
+	background-image: url(img/background.png);
 	color: rgb(0, 0, 0);
 	/* background-color: black; */
 	/* height: 335px; */
