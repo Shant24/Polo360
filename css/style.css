@@ -15,6 +15,11 @@ header div{
 nav {
 	float: right;
 	font-size: 20px;
+	line-height: auto;
+}
+nav span {
+	line-break: auto;
+	font-size: 8px;
 }
 nav a {
 	border-left:1px dotted #d5d5d5;
@@ -48,13 +53,18 @@ main {
 	height: 342px;
 }
 h1 {
-	border-bottom: 2px solid rgb(0, 0, 0);
-	padding-bottom: 10px;
+	border-bottom: 1px solid #e4e4e4;
+	padding-top: 24px;
+	padding-bottom: 16.5px;
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer {
 	color: #999999;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10px;
 }
 #bottom1 {
 	background-size: cover;
@@ -66,37 +76,37 @@ footer {
 	background-color: #333333;
 	height: 172.5px;
 }
-#foot {
+footer div p {
+	padding-bottom: 11px;
+	padding-left: 9px;
+}
+footer div p a {
+	padding-right: 9px;
+}
+.foot {
 	max-width: 940px;
 	margin: 0 auto;
 	margin-top: -156px;
-}
-footer div p {
-	padding: 11px 0;
-}
-.flinks {
 	padding: 0 9px;
 	text-decoration: none;
-	/* max-width: 940px;
-	margin: 0 auto; */
-	/* float: left; */
 }
-#term {
-	margin: -10px 0;
+.blft {
+	border-left:1px solid #999999;
+	padding-left: 11px;
 }
-a:link.flinks {
+.foot a:link {
 	color: #999999;
 }
-a:visited.flinks {
+.foot a:visited {
 	color: #999999;
 }
-a:hover.flinks {
+.foot a:hover {
 	color: #999999;
 }
 div#copy {
 	max-width: 940px;
 	margin: 0 auto;
-	margin-top: -91px;
+	margin-top: -81px;
 }
 div#copy p {
 	float: right;
