@@ -14,6 +14,7 @@ header div{
 }
 nav {
 	float: right;
+	font-size: 20px;
 }
 nav a {
 	border-left:1px dotted #d5d5d5;
@@ -87,9 +88,11 @@ a:hover.flinks {
 	color: #999999;
 }
 div#copy {
-	margin-top: -48px;
 	max-width: 940px;
 	margin: 0 auto;
-	padding: 0 9px;
+	margin-top: -48px;
+}
+div#copy p {
 	float: right;
+	padding: 0 9px;
 }
