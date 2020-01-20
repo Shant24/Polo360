@@ -14,22 +14,20 @@ header div{
 .menu{
 	float: right;
 }
-#top-background {
+/* #top-background {
 	background-size: cover;
-	background-image: url(img/background.png);
-	color: rgb(0, 0, 0);
-	/* background-color: black; */
-	/* height: 335px; */
-	/* width: auto; */
-}
+	background-image: url(/Learning/img/background.png);
+	height: 335px;
+	width: auto;
+} */
 #back {
 	border-radius: 15px 15px 15px 15px;
-	width: 940px;
 	height: 342px;
+	width: 940px;
 }
 h1 {
 	border-bottom: 2px solid rgb(0, 0, 0);
 	padding-bottom: 10px;
-	/* text-align: center; */
+	text-align: center;
 	font-size: 2em;
 }
