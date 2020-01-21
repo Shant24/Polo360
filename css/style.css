@@ -8,6 +8,7 @@ a {
 header div{
 	display: flex;
 	align-items: center;
+	width: 940px;
 	height: 137.3px;
 }
 #logo{
