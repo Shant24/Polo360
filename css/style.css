@@ -43,7 +43,8 @@ nav a:hover {
 }
 #top-background {
 	background-size: cover;
-	background-image: url(/Polo360/img/black.jpg);
+	background-image: url();
+	background-color: black;
 	margin-bottom: -312.7px;
 	height: 335px;
 }
