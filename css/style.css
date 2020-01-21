@@ -5,22 +5,19 @@
 a {
 	text-decoration: none;
 }
-header {
+header div{
 	display: flex;
-	/* flex-direction: row; */
+	width: 913.5px;
 	height: 137.3px;
 }
 #logo{
+	display: block;
 	width: 287.3px;
-	/* border:1px solid; */
-	/* width: 940px; */
-	margin: 31.5px 0;
 }
 nav {
 	display: flex;
 	font-size: 20px;
 	height: 39px;
-	line-height: ;
 }
 nav span {
 	display: flex;
@@ -32,6 +29,7 @@ nav a {
 	font-weight: bold;
 	border-left:1px dotted #d5d5d5;
 	padding-left: 10.5px;
+}
 nav a:link {
 	color: #666666;
 }
@@ -42,7 +40,7 @@ nav a:hover {
 	color: #666666;
 }
 #top-background {
-	display: block;
+	/* display: block; */
 	background-size: cover;
 	background-image: url(img/black.jpg);
 	/* background-color: black; */

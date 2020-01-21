@@ -8,9 +8,7 @@ a {
 header div{
 	display: flex;
 	width: 913.5px;
-	/* height: 137.3px; */
-	/* margin: 0 auto; */
-	/* padding: 68.5px 0; */
+	height: 137.3px;
 }
 #logo{
 	display: block;
@@ -20,7 +18,6 @@ nav {
 	display: flex;
 	font-size: 20px;
 	height: 39px;
-	line-height: ;
 }
 nav span {
 	display: flex;
