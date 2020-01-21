@@ -126,14 +126,12 @@ footer div p a {
 	margin-top: -156px;
 	padding: 0 9px;
 }
-.bift {
+div .bift {
 	border-left:1px solid #999999;
 	padding-left: 11px;
+
 }
-footer a:link {
-	color: #999999;
-}
-footer a:visited {
+footer a:link, footer a:visited {
 	color: #999999;
 }
 footer a:hover {
