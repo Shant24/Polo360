@@ -44,8 +44,8 @@ nav a:hover {
 #top-background {
 	display: block;
 	background-size: cover;
-	background-image: url();
-	background-color: black;
+	background-image: url(img/black.jpg);
+	/* background-color: black; */
 	margin-bottom: -312.7px;
 	height: 335px;
 }
