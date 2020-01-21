@@ -38,7 +38,7 @@ nav a:hover {
 	color: #666666;
 }
 #top-background {
-	background-size: inherit;
+	background-size: cover;
 	background-image: url(/Learning/img/background.png);
 	margin-bottom: -312.7px;
 	height: 335px;
@@ -47,6 +47,9 @@ main {
 	max-width: 940px;
 	margin: auto;
 }
+/* .verev {
+	-ms-flex-direction: row;
+} */
 #back-big {
 	border-radius: 7px;
 	width: 940px;
@@ -64,25 +67,26 @@ h1 {
 article {
 	max-width:  285px;
 }
-.vernagir a:link {
+main a:link {
 	color: #42719b;
 }
-.vernagir a:visited {
+main a:visited {
 	color: #42719b;
 }
-.vernagir a:hover {
+main a:hover {
 	color: #42719b;
 }
 .vernagir {
 	font-size: 1.4em;
 }
-.under-v {
+.under-a {
 	color: #a9a9a9;
 	font-size: 13px;
 	max-width: 285px;
 }
 .img {
-	border-style:5px solid;
+	/* border-style: solid; */
+	border-style:5px outset;
 }
 footer {
 	color: #999999;
@@ -116,13 +120,7 @@ footer div p a {
 	border-left:1px solid #999999;
 	padding-left: 11px;
 }
-.foot a:link {
-	color: #999999;
-}
-.foot a:visited {
-	color: #999999;
-}
-.foot a:hover {
+footer .foot a:link, a:visited, a:hover {
 	color: #999999;
 }
 div#copy {
