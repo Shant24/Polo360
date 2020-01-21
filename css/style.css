@@ -40,10 +40,9 @@ nav a:hover {
 	color: #666666;
 }
 #top-background {
-	/* display: block; */
 	background-size: cover;
 	background-image: url(../img/black.jpg);
-	/* background-color: black; */
+	background-color: black;
 	margin-bottom: -312.7px;
 	height: 335px;
 }
