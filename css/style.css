@@ -5,39 +5,33 @@
 a {
 	text-decoration: none;
 }
-.header {
-	/* display: block; */
-	/* align-items: center; */
-	max-width: 940px;
-	margin: 0 auto;
+header {
+	display: flex;
+	/* flex-direction: row; */
 	height: 137.3px;
 }
 #logo{
-	display: flex;
-	/* justify-content: flex-start; */
 	width: 287.3px;
-	border:1px solid;
-	/* width: 940px; */
-	/* margin: -31.5px 0; */
-}
-#menu {
-	display: flex;
-	/* width: 940px; */
 	/* border:1px solid; */
-	/* align-items: center; */
-	/* justify-content: flex-end; */
+	/* width: 940px; */
+	margin: 31.5px 0;
+}
+nav {
+	display: flex;
 	font-size: 20px;
-	line-height: auto;
+	height: 39px;
+	line-height: ;
 }
 nav span {
+	display: flex;
 	line-break: auto;
-	font-size: 8px;
-	display: block;
+	font-size: 10px;
+	font-weight: normal;
 }
 nav a {
+	font-weight: bold;
 	border-left:1px dotted #d5d5d5;
 	padding-left: 10.5px;
-}
 nav a:link {
 	color: #666666;
 }

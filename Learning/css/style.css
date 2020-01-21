@@ -1,0 +1,141 @@
+/* body {
+	max-width: 940px;
+	margin: 0 auto;
+} */
+a {
+	text-decoration: none;
+}
+header div{
+	display: flex;
+	width: 913.5px;
+	/* height: 137.3px; */
+	/* margin: 0 auto; */
+	/* padding: 68.5px 0; */
+}
+#logo{
+	display: block;
+	width: 287.3px;
+}
+nav {
+	display: flex;
+	font-size: 20px;
+	height: 39px;
+	line-height: ;
+}
+nav span {
+	display: flex;
+	line-break: auto;
+	font-size: 10px;
+	font-weight: normal;
+}
+nav a {
+	font-weight: bold;
+	border-left:1px dotted #d5d5d5;
+	padding-left: 10.5px;
+}
+nav a:link {
+	color: #666666;
+}
+nav a:visited {
+	color: #666666;
+}
+nav a:hover {
+	color: #666666;
+}
+#top-background {
+	background-size: inherit;
+	background-image: url(../img/background.png);
+	margin-bottom: -312.7px;
+	height: 335px;
+}
+main {
+	max-width: 940px;
+	margin: auto;
+}
+#back-big {
+	border-radius: 7px;
+	width: 940px;
+	height: 342px;
+}
+h1 {
+	border-bottom: 1px solid #e4e4e4;
+	padding-top: 24px;
+	padding-bottom: 16.5px;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+article {
+	max-width:  285px;
+}
+.vernagir a:link {
+	color: #42719b;
+}
+.vernagir a:visited {
+	color: #42719b;
+}
+.vernagir a:hover {
+	color: #42719b;
+}
+.vernagir {
+	font-size: 1.4em;
+}
+.under-v {
+	color: #a9a9a9;
+	font-size: 13px;
+	max-width: 285px;
+}
+.img {
+	border-style:5px solid;
+}
+footer {
+	color: #999999;
+	font-family: Helvetica, "sans-serif";
+	font-size: 12px;
+}
+#bottom1 {
+	background-size: cover;
+	background-color: #4c4c4c;
+	height: 10px;
+}
+#bottom2 {
+	background-size: cover;
+	background-color: #333333;
+	height: 172.5px;
+}
+footer div p {
+	padding-bottom: 11px;
+	padding-left: 9px;
+}
+footer div p a {
+	padding-right: 9px;
+}
+.foot {
+	max-width: 940px;
+	margin: 0 auto;
+	margin-top: -156px;
+	padding: 0 9px;
+}
+.blft {
+	border-left:1px solid #999999;
+	padding-left: 11px;
+}
+.foot a:link {
+	color: #999999;
+}
+.foot a:visited {
+	color: #999999;
+}
+.foot a:hover {
+	color: #999999;
+}
+div#copy {
+	max-width: 940px;
+	margin: 0 auto;
+	margin-top: -69px;
+}
+div#copy p {
+	float: right;
+	padding: 0 15px;
+}
