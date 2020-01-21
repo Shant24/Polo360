@@ -61,6 +61,29 @@ h1 {
 	font-weight: bold;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
+article {
+	max-width:  285px;
+}
+.vernagir a:link {
+	color: #42719b;
+}
+.vernagir a:visited {
+	color: #42719b;
+}
+.vernagir a:hover {
+	color: #42719b;
+}
+.vernagir {
+	font-size: 1.4em;
+}
+.under-v {
+	color: #a9a9a9;
+	font-size: 13px;
+	max-width: 285px;
+}
+.img {
+	border-style:5px solid;
+}
 footer {
 	color: #999999;
 	font-family: Helvetica, "sans-serif";
