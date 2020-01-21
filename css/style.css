@@ -13,7 +13,6 @@ header div{
 #logo{
 	display: block;
 	width: 287.3px;
-	
 }
 nav {
 	display: flex;
@@ -131,8 +130,14 @@ footer div p a {
 	border-left:1px solid #999999;
 	padding-left: 11px;
 }
-footer .foot a:link, a:visited, a:hover {
+footer a:link {
 	color: #999999;
+}
+footer a:visited {
+	color: #999999;
+}
+footer a:hover {
+	color: #767575;
 }
 div#copy {
 	max-width: 940px;
