@@ -6,12 +6,12 @@ a {
 	text-decoration: none;
 }
 header div{
-	display: block;
+	display: flex;
+	align-items: center;
 	height: 137.3px;
 }
 #logo{
 	display: flex;
-	align-items: center;
 	width: 287.3px;
 	/* margin: -31.5px 0; */
 }
