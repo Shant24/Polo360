@@ -42,6 +42,7 @@ nav a:hover {
 	color: #666666;
 }
 #top-background {
+	display: block;
 	background-size: cover;
 	background-image: url();
 	background-color: black;
