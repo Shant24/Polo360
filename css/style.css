@@ -6,17 +6,19 @@ a {
 	text-decoration: none;
 }
 header div{
+
 	height: 137.3px;
 	display: flex;
-	align-items: center;
 }
 #logo{
 	display: flex;
+	align-items: center;
 	width: 287.3px;
 	/* margin: -31.5px 0; */
 }
 nav {
 	display: flex;
+	align-items: center;
 	justify-content: flex-start;
 	font-size: 20px;
 	/* line-height: auto; */
