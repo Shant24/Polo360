@@ -64,7 +64,7 @@ h1 {
 footer {
 	color: #999999;
 	font-family: Helvetica, "sans-serif";
-	font-size: 10px;
+	font-size: 12px;
 }
 #bottom1 {
 	background-size: cover;
@@ -105,7 +105,7 @@ footer div p a {
 div#copy {
 	max-width: 940px;
 	margin: 0 auto;
-	margin-top: -61px;
+	margin-top: -69px;
 }
 div#copy p {
 	float: right;
