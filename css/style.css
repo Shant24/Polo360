@@ -6,7 +6,7 @@ a {
 	text-decoration: none;
 }
 .header {
-	display: flex;
+	display: block;
 	align-items: center;
 	width: 940px;
 	height: 137.3px;
