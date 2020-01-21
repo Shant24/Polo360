@@ -16,13 +16,14 @@ header div{
 	margin: -31.5px 0;
 }
 nav {
-	float: right;
+	display: flex;
 	font-size: 20px;
 	line-height: auto;
 }
 nav span {
 	line-break: auto;
 	font-size: 8px;
+	display: block;
 }
 nav a {
 	border-left:1px dotted #d5d5d5;
@@ -45,11 +46,8 @@ nav a:hover {
 }
 main {
 	max-width: 940px;
-	margin: auto;
+	margin: 0 auto;
 }
-/* .verev {
-	-ms-flex-direction: row;
-} */
 #back-big {
 	border-radius: 7px;
 	width: 940px;
@@ -65,7 +63,8 @@ h1 {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 article {
-	max-width:  285px;
+	width: 33.3%;
+	/* width:  285px; */
 }
 main a:link {
 	color: #42719b;
@@ -75,6 +74,11 @@ main a:visited {
 }
 main a:hover {
 	color: #42719b;
+}
+.verev {
+	border: 1px solid rgb(255, 255, 255);
+	float: left;
+	box-sizing: border-box;
 }
 .vernagir {
 	font-size: 1.4em;
@@ -96,6 +100,7 @@ footer {
 	color: #999999;
 	font-family: Helvetica, "sans-serif";
 	font-size: 12px;
+	 clear: left;
 }
 #bottom1 {
 	background-size: cover;
