@@ -2,6 +2,9 @@
 	max-width: 940px;
 	margin: 0 auto;
 } */
+a {
+	text-decoration: none;
+}
 header div{
 	max-width: 913.5px;
 	margin: 0 auto;
@@ -24,9 +27,6 @@ nav span {
 nav a {
 	border-left:1px dotted #d5d5d5;
 	padding-left: 10.5px;
-}
-.hlinks {
-	text-decoration: none;
 }
 a:link.hlinks {
 	color: #666666;
@@ -63,7 +63,7 @@ h1 {
 }
 footer {
 	color: #999999;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Helvetica, "sans-serif";
 	font-size: 10px;
 }
 #bottom1 {
@@ -88,7 +88,6 @@ footer div p a {
 	margin: 0 auto;
 	margin-top: -156px;
 	padding: 0 9px;
-	text-decoration: none;
 }
 .blft {
 	border-left:1px solid #999999;
@@ -106,9 +105,9 @@ footer div p a {
 div#copy {
 	max-width: 940px;
 	margin: 0 auto;
-	margin-top: -81px;
+	margin-top: -61px;
 }
 div#copy p {
 	float: right;
-	padding: 0 9px;
+	padding: 0 15px;
 }
