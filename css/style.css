@@ -6,22 +6,28 @@ a {
 	text-decoration: none;
 }
 .header {
-	display: block;
+	/* display: block; */
 	/* align-items: center; */
-	width: 940px;
+	max-width: 940px;
+	margin: 0 auto;
 	height: 137.3px;
 }
 #logo{
-	/* display: flex; */
+	display: flex;
+	/* justify-content: flex-start; */
 	width: 287.3px;
+	border:1px solid;
+	/* width: 940px; */
 	/* margin: -31.5px 0; */
 }
 #menu {
 	display: flex;
+	/* width: 940px; */
+	/* border:1px solid; */
 	/* align-items: center; */
-	justify-content: flex-end;
+	/* justify-content: flex-end; */
 	font-size: 20px;
-	/* line-height: auto; */
+	line-height: auto;
 }
 nav span {
 	line-break: auto;
