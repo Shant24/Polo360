@@ -6,7 +6,7 @@ a {
 	text-decoration: none;
 }
 header div{
-	display: static;
+	display: block;
 	height: 137.3px;
 }
 #logo{
