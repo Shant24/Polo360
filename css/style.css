@@ -13,13 +13,13 @@ header div{
 #logo{
 	display: block;
 	width: 287.3px;
-	margin: -31.5px 0;
+	/* margin: -31.5px 0; */
 }
 nav {
 	display: flex;
 	justify-content: flex-end;
 	font-size: 20px;
-	line-height: auto;
+	/* line-height: auto; */
 }
 nav span {
 	line-break: auto;
