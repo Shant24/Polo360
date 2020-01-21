@@ -28,13 +28,13 @@ nav a {
 	border-left:1px dotted #d5d5d5;
 	padding-left: 10.5px;
 }
-a:link.hlinks {
+nav a:link {
 	color: #666666;
 }
-a:visited.hlinks {
+nav a:visited {
 	color: #666666;
 }
-a:hover.hlinks {
+nav a:hover {
 	color: #666666;
 }
 #top-background {
