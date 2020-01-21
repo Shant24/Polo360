@@ -84,12 +84,13 @@ main a:hover {
 	font-size: 13px;
 	max-width: 285px;
 }
-.img {
+/* .img {
 	border-style: solid;
-	/* border-image-outset: 5px;
+	border-collapse: collapse;
+	border-image: 5px;
 	border-color: black;
-	border-style:5px outset; */
-}
+	border-style:5px outset;
+} */
 footer {
 	color: #999999;
 	font-family: Helvetica, "sans-serif";
