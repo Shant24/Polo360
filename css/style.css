@@ -6,9 +6,9 @@ a {
 	text-decoration: none;
 }
 header div{
-	max-width: 913.5px;
-	margin: 0 auto;
-	padding: 68.5px 0;
+	height: 137.3px;
+	display: flex;
+	align-items: center;
 }
 #logo{
 	float: left;
