@@ -16,9 +16,9 @@ a {
 	width: 287.3px;
 	/* margin: -31.5px 0; */
 }
-nav {
+#menu {
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
 	justify-content: flex-end;
 	font-size: 20px;
 	/* line-height: auto; */
