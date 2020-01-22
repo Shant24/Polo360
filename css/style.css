@@ -7,7 +7,7 @@ a {
 }
 header div{
 	display: flex;
-	
+
 	width: 913.5px;
 	height: 137.3px;
 }
@@ -42,7 +42,8 @@ nav a:hover {
 }
 #top-background {
 	background-size: cover;
-	background-image: url(/Polo360/img/black.jpg);
+	/* background-image: url(/Polo360/img/black.jpg); */
+	background-color: black;
 	margin-bottom: -312.7px;
 	height: 335px;
 }
