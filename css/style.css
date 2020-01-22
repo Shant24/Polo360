@@ -135,9 +135,9 @@ footer div p a {
 	margin-top: -156px;
 	padding: 0 9px;
 }
-.foot p a .brd {
+.brd {
 	border-left:1px solid #999999;
-	/* padding-left: 11px; */
+	padding-left: 11px;
 
 }
 footer a:link, footer a:visited {
