@@ -22,28 +22,30 @@ header div{
 }
 nav {
 	display: flex;
-	font-size: 20px;
+	justify-content: space-between;
+	font-size: 16px;
+	width: 520px;
 	height: 39px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav span {
 	display: flex;
 	line-break: auto;
-	font-size: 10px;
+	font-size: 11px;
 	font-weight: normal;
+	color: #b5b5b5;
 }
 nav a {
 	font-weight: bold;
 	border-left:1px dotted #d5d5d5;
-	padding-left: 10.5px;
+	padding-left: 10px;
 }
-nav a:link {
-	color: #666666;
-}
-nav a:visited {
+nav a:link, nav a:visited {
 	color: #666666;
 }
 nav a:hover {
-	color: #4e4e4e;
+	color: #2a2a2a;
+	/* font-size: 103%; */
 }
 #top-background {
 	background-size: cover;
