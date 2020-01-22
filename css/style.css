@@ -13,7 +13,6 @@ header div{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 1px solid black;
 	width: 913.5px;
 	height: 137.3px;
 }
