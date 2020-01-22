@@ -72,18 +72,19 @@ h1 {
 	font-weight: bold;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
-article {
-	width: 33.3%;
-	/* width:  285px; */
+.article__top {
+	display: flex;
+	justify-content: space-between;
 }
-main a:link {
-	color: #42719b;
+article{
+	max-width: 300px;
 }
+main a:link,
 main a:visited {
 	color: #42719b;
 }
 main a:hover {
-	color: #42719b;
+	color: #0d3b64;
 }
 .verev {
 	border: 1px solid rgb(255, 255, 255);
