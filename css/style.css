@@ -126,7 +126,7 @@ footer div p a {
 	margin-top: -156px;
 	padding: 0 9px;
 }
-div .foot p a .bift {
+.foot p a .bift {
 	border-left:1px solid #999999;
 	padding-left: 11px;
 
@@ -143,6 +143,6 @@ div#copy {
 	margin-top: -69px;
 }
 div#copy p {
-	float: right;
+	/* float: right; */
 	padding: 0 15px;
 }
