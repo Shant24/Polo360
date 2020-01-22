@@ -8,7 +8,7 @@ a {
 header div{
 	display: flex;
 	justify-content: space-between;
-	width: 913.5px;
+	max-width: 913.5px;
 	height: 137.3px;
 }
 #logo{
