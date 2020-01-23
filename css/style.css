@@ -125,9 +125,9 @@ footer {
 footer p {
 	padding-bottom: 11px;
 }
-/* footer a {
+footer a {
 	padding-right: 9px;
-} */
+}
 .footer {
 	display: flex;
 	justify-content: center;
@@ -138,9 +138,9 @@ footer p {
 	justify-content: space-between;
 	width: 940px;
 }
-#footer__left, #footer__right {
+/* #footer__left, #footer__right {
 	border: 1px solid white;
-}
+} */
 #footer__left {
 	display: flex;
 	align-items: flex-start;
