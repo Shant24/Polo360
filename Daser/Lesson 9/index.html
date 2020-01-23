@@ -18,14 +18,32 @@
     let a = 5;
     let b = 6;
 
+    let c = {b: 1 }
+
     // function area(a, b) {
     //     return a * b;
     // }
 
-    function area(erkarutyun, laynutyun) {
+    function area(erkarutyun, laynutyun, myObj) {
+        erkarutyun = 10;
+        myObj.b = 6;
         return erkarutyun * laynutyun;
     }
 
-    console.log(area(a, b));
+
+
+    console.log(area(a, b, c));
+    console.log(c.b);
+
+
+    function erankyanMakeres(a, b) {
+        // (a * b) / 2;
+        return (a * b) / 2;
+    }
+    // erankyan makeres
+    console.log(erankyanMakeres(4,4));
+
+
+
 </script>
 </html>
