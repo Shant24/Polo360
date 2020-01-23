@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Lesson 3 - Im sayti anune</title>
+        <link href="css/styles.css" rel="stylesheet">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            .parentDiv {
+                box-sizing: border-box;
+                padding: 0.1px;
+                width: 200px;
+                height: 200px;
+                background-color: green;
+            }
+
+            .myDiv {
+                box-sizing: border-box;
+                width: 100px;
+                height: 100px;
+                background-color: #ff0000;
+                
+                /* border-radius: 50%; */
+                /* border: 10px dotted black;
+                border: 10px solid black; */
+                border: 10px solid black;
+                /* border: 2px dotted black; */
+                padding: 5px 10px 5px;
+                margin: 50px;
+                cursor: pointer;
+            }
+
+            .myDiv:hover {
+                border: 10px solid transparent;
+            }
+
+            .childDiv {
+                width: 50px;
+                height: 50px;
+                background-color: indigo;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parentDiv">
+            <div class="myDiv">
+                <div class="childDiv"></div>
+            </div>
+        </div>
+    </body>
+</html>
