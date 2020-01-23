@@ -104,7 +104,7 @@ article a, p {
 }
 .img {
 	box-sizing: border-box;
-	border: 5px solid black;
+	border: 5px solid #f3f3f3;
 	border-style: outset;
 }
 footer {
@@ -138,9 +138,6 @@ footer a {
 	justify-content: space-between;
 	width: 940px;
 }
-/* #footer__left, #footer__right {
-	border: 1px solid white;
-} */
 #footer__left {
 	display: flex;
 	align-items: flex-start;
