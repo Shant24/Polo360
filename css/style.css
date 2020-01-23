@@ -110,8 +110,7 @@ article a, p {
 footer {
 	color: #999999;
 	font-family: Helvetica, "sans-serif";
-	font-size: 12px;
-	 clear: left;
+	font-size: 11px;
 }
 #bottom1 {
 	background-size: cover;
@@ -123,36 +122,39 @@ footer {
 	background-color: #333333;
 	height: 172.5px;
 }
-footer div p {
+footer p {
 	padding-bottom: 11px;
-	padding-left: 9px;
 }
-footer div p a {
+/* footer a {
 	padding-right: 9px;
+} */
+.footer {
+	display: flex;
+	justify-content: center;
+	margin-top: -156px
 }
-.foot {
-	max-width: 940px;
-	margin: 0 auto;
-	margin-top: -156px;
-	padding: 0 9px;
+.footer #footer__p {
+	display: flex;
+	justify-content: space-between;
+	width: 940px;
+}
+#footer__left, #footer__right {
+	border: 1px solid white;
+}
+#footer__left {
+	display: flex;
+	align-items: flex-start;
+}
+#footer__right {
+	width: 300px;
 }
 .brd {
 	border-left:1px solid #999999;
 	padding-left: 11px;
-
 }
 footer a:link, footer a:visited {
 	color: #999999;
 }
 footer a:hover {
 	color: #767575;
-}
-div#copy {
-	max-width: 940px;
-	margin: 0 auto;
-	margin-top: -69px;
-}
-div#copy p {
-	/* float: right; */
-	padding: 0 15px;
 }
