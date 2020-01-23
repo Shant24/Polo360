@@ -17,16 +17,20 @@ header div{
 	height: 137.3px;
 }
 #logo{
-	display: block;
 	width: 287px;
 }
 nav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	font-size: 14px;
 	width: 520px;
 	height: 39px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav a {
+	font-weight: bold;
+	border-left:1px dotted #d5d5d5;
+	padding-left: 10px;
 }
 nav span {
 	display: flex;
@@ -35,22 +39,16 @@ nav span {
 	font-weight: normal;
 	color: #b5b5b5;
 }
-nav a {
-	font-weight: bold;
-	border-left:1px dotted #d5d5d5;
-	padding-left: 10px;
-}
 nav a:link, nav a:visited {
 	color: #666666;
 }
 nav a:hover {
 	color: #2a2a2a;
-	/* font-size: 103%; */
 }
 #top-background {
 	background-size: cover;
-	/* background-image: url(/Polo360/img/black.jpg); */
-	background-color: black;
+	background: rgb(33,33,33);
+	background: linear-gradient(180deg, rgba(33,33,33,1) 37%, rgba(48,48,48,1) 65%);
 	margin-bottom: -312.7px;
 	height: 335px;
 }
@@ -72,12 +70,12 @@ h1 {
 	font-weight: bold;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
+article{
+	max-width: 295px;
+}
 .article__top {
 	display: flex;
 	justify-content: space-between;
-}
-article{
-	max-width: 295px;
 }
 main a:link, main a:visited {
 	color: #42719b;
@@ -87,25 +85,27 @@ main a:hover {
 }
 .verev {
 	border: 1px solid rgb(255, 255, 255);
-	float: left;
 	box-sizing: border-box;
 }
 .vernagir {
 	font-size: 21px;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.under-a {
+.under__a {
 	color: #a9a9a9;
 	font-size: 12px;
 	max-width: 295px;
 }
-article a, p {
-	padding: 0 5px;
+article a, article p {
+	padding: 0 7px;
 }
 .img {
 	box-sizing: border-box;
-	border: 5px solid #f3f3f3;
-	border-style: outset;
+	border: 7px solid #f3f3f3;
+	border-radius: 4px;
+}
+.under__img {
+	font-size: 13px;
 }
 footer {
 	color: #999999;
