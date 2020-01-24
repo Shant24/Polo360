@@ -121,7 +121,6 @@ article a, article p {
 	border-radius: 3px;
 	background: rgb(231,231,231);
 	background: linear-gradient(90deg, rgba(231,231,231,1) 25%, rgba(246,246,246,1) 40%, rgba(231,231,231,1) 60%);
-	/* color: #3b6996; */
 	padding-top: 14px;
 }
 .button__div {
