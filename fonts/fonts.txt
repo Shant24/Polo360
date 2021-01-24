@@ -1,0 +1,6 @@
+Myrial Pro - PT Sans
+Georgia - PT serif
+Tahoma - Tahoma,'DejaVu Sans',Arial,sans-serif;
+Gill Sans MT - 
+Vardana - 
+helvetica

@@ -1,144 +1,448 @@
-/* body {
-	max-width: 940px;
-	margin: 0 auto;
-} */
+/* ----------Fonts---------- */
+
+.title,
+.h1Top,
+.h1Bottom,
+.linkHeader,
+.sendButton,
+.sectionButton,
+.subscribeButton {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.linkDescription {
+	font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+}
+
+footer,
+.underImg,
+.section p,
+.buttonDiv,
+.underTitle,
+.bottomRightIcons p {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.h1BottomBottom {
+	font-family: 'Gill Sans MT', 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.namePerson,
+.messagePerson,
+.emailPersonLeft,
+.emailPersonCenter {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* ----------Others---------- */
+
+
+.hr2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 a {
 	text-decoration: none;
 }
-header div{
+
+section p {
+	line-height: 5px;
+}
+
+/* ----------Header---------- */
+
+.header {
 	display: flex;
-	width: 913.5px;
-	height: 137.3px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	width: 920px;
+	height: 137px;
+	margin: auto;
 }
-#logo{
-	display: block;
-	width: 287.3px;
+
+.logoHeader {
+	margin-top: 16px;
+	padding-left: 5px;
 }
+
 nav {
 	display: flex;
-	font-size: 20px;
-	height: 39px;
+	justify-content: space-around;
+	width: 525px;
+	height: 40px;
+	margin-top: 14px;
 }
-nav span {
-	display: flex;
-	line-break: auto;
-	font-size: 10px;
-	font-weight: normal;
-}
+
 nav a {
-	font-weight: bold;
 	border-left:1px dotted #d5d5d5;
-	padding-left: 10.5px;
+	padding-left: 10px;
+	line-height: 16px;
 }
-nav a:link {
-	color: #666666;
+
+.linkHeader {
+	font-size: 14px;
+	font-weight: bold;
 }
+
+.linkDescription {
+	display: flex;
+	font-size: 11px;
+	color: #b5b5b5;
+}
+
+nav a:link,
 nav a:visited {
 	color: #666666;
 }
+
 nav a:hover {
-	color: #4e4e4e;
+	color: #2a2a2a;
 }
-#top-background {
+
+.topBackground {
 	background-size: cover;
-	background-image: url(/Polo360/img/black.jpg);
+	background: rgb(33,33,33);
+	background: linear-gradient(180deg, rgba(33,33,33,1) 37%, rgba(48,48,48,1) 65%);
 	margin-bottom: -312.7px;
 	height: 335px;
 }
+
+/* ----------Main---------- */
+
 main {
 	max-width: 940px;
 	margin: 0 auto;
 }
-#back-big {
+
+.backBig {
 	border-radius: 7px;
 	width: 940px;
 	height: 342px;
+	object-fit: cover;
+	box-shadow: 0 4px 5px rgba(0,0,0,0.25);
 }
-h1 {
-	border-bottom: 1px solid #e4e4e4;
-	padding-top: 24px;
-	padding-bottom: 16.5px;
+
+.h1Top {
+	padding: 18px 2px 9px 0;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 24px;
 	font-weight: bold;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	/* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
+
+/* ----------Article---------- */
+
 article {
-	width: 33.3%;
-	/* width:  285px; */
+	max-width: 298px;
+	min-height: 436px;
 }
-main a:link {
-	color: #42719b;
+
+.articleTop,
+.sectionBottom {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 34px;
 }
+
+main a:link,
 main a:visited {
 	color: #42719b;
 }
+
 main a:hover {
-	color: #42719b;
+	color: #0d3b64;
 }
-.verev {
-	border: 1px solid rgb(255, 255, 255);
-	float: left;
+
+.article,
+.section {
 	box-sizing: border-box;
 }
-.vernagir {
-	font-size: 1.4em;
+
+.title {
+	font-size: 21px;
+	margin: 0 0 0 3px;
 }
-.under-a {
+
+.underTitle {
 	color: #a9a9a9;
-	font-size: 13px;
+	font-size: 12px;
 	max-width: 295px;
+	margin: 3px 0 19px 4px;
 }
-article a, p {
-	padding: 0 5px;
-}
-.img {
+
+.imgBig {
 	box-sizing: border-box;
-	border: 5px solid black;
-	border-style: outset;
+	border: 6px solid #f3f3f3;
+	border-radius: 4px;
+	width: 297px;
+	margin-top: 1px;
+	margin-left: 1px;
 }
+
+.underImg {
+	margin: 10px 0 0 6px;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.articleButton {
+	margin: 21px 0 0 4px;
+	display: inline-block;
+	width: 147px;
+	height: 15px;
+	border-radius: 3px;
+	padding: 8px 2px 7px 12px;
+	font-size: 12px;
+	border:1px solid #d7d7d7;
+	background: rgb(231,231,231);
+	background: linear-gradient(90deg, rgba(231,231,231,1) 25%, rgba(246,246,246,1) 40%, rgba(231,231,231,1) 60%);
+}
+
+.buttonDiv {
+	display: flex;
+	justify-content: space-between;
+}
+
+.articleButton:link,
+.articleButton:visited {
+	color: #3b6996;
+}
+
+.articleButton:hover {
+	color: #04294e;
+}
+
+.symbolRight {
+	font-size: 180%;
+	padding-right: 4px;
+	margin-top: -5px;
+}
+
+.section {
+	width: 305px;
+	height: 340px;
+	padding-left: 6px;
+	margin-top: 6px;
+}
+
+.h1Bottom {
+	font-size: 19px;
+	margin-bottom: -2px;
+}
+
+.hrBottom {
+	border: 1px dashed #e4e4e4;
+	margin-inline-start: 1px;
+	margin-inline-end: 4px;
+}
+
+.hrBottom.One {
+	margin-top: 6px;
+	margin-bottom: 10px;
+}
+
+.section p {
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.pBottomLeftTop {
+	margin: 11px 0 7px 0;
+	padding: 0 0 0 0;
+}
+
+.pBottomLeftBottom {
+	margin: 10px 0 -4px 0;
+}
+
+.bottomLeftIcons {
+	width: 296px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottomLeftIcons img {
+	width: 50px;
+	height: 50px;
+	border-radius: 8px;
+}
+
+.h1BottomBottom {
+	font-weight: bold;
+	margin: 38px 0 -1px 0;
+	font-size: 18px;
+}
+
+.namePerson,
+.emailPersonLeft,
+.emailPersonCenter {
+	width: 266px;
+	height: 31px;
+	border: 1px solid #cfcfcf;
+	border-radius: 4px;
+	padding: 0 14px;
+	font-size: 10px;
+}
+
+.messagePerson {
+	width: 266px;
+	height: 112px;
+	border: 1px solid #cfcfcf;
+	border-radius: 4px;
+	padding: 10px 14px;
+	font-size: 10px;
+	margin: 15px 0 8px 0;
+	resize: none;
+}
+
+.emailPersonLeft {
+	margin: 16px 0 11px 0;
+}
+
+.namePerson {
+	margin: 7px 0 0 0;
+}
+
+.emailPersonCenter {
+	margin: 17px 0 0 0;
+}
+
+.bottomRightIcons {
+	display: flex;
+	margin-top: 14px;
+}
+
+.bottomRightIcons img {
+	width: 46px;
+	height: 46px;
+	border:6px solid #f0f0f0 ;
+	border-radius: 4px;
+}
+
+.bottomRightLastImg {
+	margin-bottom: 4px;
+}
+
+.bottomRightParagraph {
+	margin: -1px 0 0 7px;
+}
+
+.sendButton,
+.subscribeButton {
+	display: flex;
+	justify-content: space-between;
+	width: 165px;
+	height: 34px;
+	border: 1px solid #d7d7d7;
+	border-radius: 4px;
+	font-size: 12px;
+	color: white;
+	margin: -1px 0 0 -1px;
+	padding: 2px 8px 0 14px;
+}
+
+.sectionButton {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 3px;
+	padding: 0 6px 0 12px;
+	border: 1px solid #d7d7d7;
+	cursor: pointer;
+	width: 144px;
+	font-size: 12px;
+	height: 31px;
+}
+
+.symbolBottomLeft {
+	font-size: 173%;
+	margin-right: -1px;
+}
+
+.symbolBottomRight {
+	font-size: 173%;
+	margin: 0 1px 2px 0;
+}
+
+.bottomDivButtons {
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+.sendButton,
+.sectionButton,
+.subscribeButton {
+	background: rgb(66,111,156);
+	background: linear-gradient(90deg, rgba(66,111,156,1) 17%, rgba(105,148,191,1) 35%, rgba(66,111,156,1) 61%);
+}
+
+.sectionButton:link,
+.sectionButton:visited {
+	color: #f7fafb;
+}
+
+.sendButton:hover,
+.sectionButton:hover,
+.subscribeButton:hover {
+	background: rgb(29,73,116);
+	background: linear-gradient(90deg, rgba(29,73,116,1) 14%, rgba(105,148,191,1) 35%, rgba(29,73,116,1) 70%);
+}
+
+/* ----------Footer---------- */
+
 footer {
 	color: #999999;
-	font-family: Helvetica, "sans-serif";
-	font-size: 12px;
-	 clear: left;
+	font-size: 11px;
 }
-#bottom1 {
+
+.bottom1 {
 	background-size: cover;
 	background-color: #4c4c4c;
 	height: 10px;
 }
-#bottom2 {
+
+.bottom2 {
 	background-size: cover;
 	background-color: #333333;
-	height: 172.5px;
+	height: 172px;
 }
-footer div p {
-	padding-bottom: 11px;
-	padding-left: 9px;
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	width: 924px;
+	margin: -156px auto auto auto;
 }
-footer div p a {
-	padding-right: 9px;
+
+footer p {
+	padding-bottom: 9px;
 }
-.foot {
-	max-width: 940px;
-	margin: 0 auto;
-	margin-top: -156px;
-	padding: 0 9px;
-}
-.blft {
+
+.brdCenter {
 	border-left:1px solid #999999;
-	padding-left: 11px;
+	padding-left: 3px;
+	margin-left: 2px;
 }
-footer .foot a:link, a:visited, a:hover {
+
+.brdBottom {
+	border-left:1px solid #999999;
+	padding-left: 4px;
+	margin-left: 2px;
+}
+
+.footerRight {
+	margin-right: 15px;
+}
+
+footer a:link,
+footer a:visited {
 	color: #999999;
 }
-div#copy {
-	max-width: 940px;
-	margin: 0 auto;
-	margin-top: -69px;
-}
-div#copy p {
-	float: right;
-	padding: 0 15px;
+
+footer a:hover {
+	color: #767575;
 }
